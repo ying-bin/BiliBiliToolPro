@@ -42,7 +42,7 @@ jobs:
     # 运行
     - name: Run
       env:
-        userId: ${{secrets.USERID}}
+        userId: ${{secrets.DEDEUSERID}}
         sessData: ${{secrets.SESSDATA}}
         biliJct: ${{secrets.BILIJCT}}
         otherConfigs: ${{secrets.OTHERCONFIGS}}
